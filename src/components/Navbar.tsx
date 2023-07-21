@@ -52,7 +52,7 @@ const Navbar = () => {
             {/* <ImageButton
                 src='/circular-text.png'
                 alt='Hire Me pls'
-                onClick={hireMepls}
+                oginClick={hireMepls}
             /> */}
 
         </nav>

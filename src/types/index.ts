@@ -11,5 +11,6 @@ export interface CustomButtonProps {
 export interface ImageButtonProps {
     src: string;
     alt: string;
-    onClick: () => void;
+    onButtonClick: () => void;
+    containerStyles?:string;
 }
