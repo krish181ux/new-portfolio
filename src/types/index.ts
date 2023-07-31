@@ -14,3 +14,14 @@ export interface ImageButtonProps {
     onButtonClick: () => void;
     containerStyles?:string;
 }
+
+export interface SearchMProps{
+    mskill: string;
+    setmskill: (mskill: string) => void;
+}
+
+export interface SkillProps{
+    main: string;
+    desc: string;
+    subSkills: string[];
+}
