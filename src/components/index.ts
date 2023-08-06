@@ -7,6 +7,7 @@ import CustomFilter from './CustomFilter';
 import SearchBar from './SearchBar';
 import SearchM from './SearchM';
 import SkillCard from './SkillCard';
+import SkillDetails from './SkillDetails';
 
 export {
     Hero,
@@ -17,5 +18,6 @@ export {
     CustomFilter,
     SearchBar,
     SearchM,
-    SkillCard
+    SkillCard,
+    SkillDetails
 }

@@ -229,7 +229,7 @@ export const mainSkills =
       ]
     },
     {
-      main: "A/B Testing",
+      main: "AB Testing",
       desc: "Conducting experiments to compare different design variations and identify the most effective one.",
       subSkills: [
         {point: "Defining clear testing objectives and hypotheses."},

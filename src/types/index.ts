@@ -1,11 +1,15 @@
-import { MouseEventHandler } from "react";
+import React, { MouseEventHandler } from "react";
 
 export interface CustomButtonProps {
+    children?: React.ReactNode;
     title:string;
     containerStyles?:string;
     handleClick?:
     MouseEventHandler<HTMLButtonElement>;
     btnType?: "button" | "submit";
+    textStyles?: string;
+    rightIcon?: string;
+    isDisabled?: boolean;
 }
 
 export interface ImageButtonProps {
@@ -23,5 +27,5 @@ export interface SearchMProps{
 export interface SkillProps{
     main: string;
     desc: string;
-    subSkills: string[];
+    subSkills: {point: string}[];
 }
