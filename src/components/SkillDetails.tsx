@@ -5,6 +5,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Fragment } from 'react';
 import { Dialog, Transition} from '@headlessui/react';
+import ImageButton from './ImageButton';
 
 interface SkillDetailsProps {
     isOpen:boolean;
@@ -15,6 +16,9 @@ interface SkillDetailsProps {
 const SkillDetails = ({isOpen, closeModal, skill}: 
     SkillDetailsProps) => {
         const imageURL = `/${skill.main}.png`;
+        const hireMe = () => {
+            console.log('Hired !!!');
+        }
   return (
     <>
         <Transition appear show={isOpen} as={Fragment}>
@@ -45,8 +49,8 @@ const SkillDetails = ({isOpen, closeModal, skill}:
                             leaveFrom='opacity-100 scale-100'
                             leaveTo='opacity-0 scale-95'
                         >
-                            <Dialog.Panel className='relatice w-full
-                            max-w-lg max-h-[90vh] overflow-y-auto
+                            <Dialog.Panel className='relative w-full
+                            max-w-2xl max-h-[90vh] overflow-y-auto
                             transform rounded-2xl bg-white p-6 text-left
                             shadow-xl transition-all flex flex-col
                             gap-5'>
@@ -126,7 +130,14 @@ const SkillDetails = ({isOpen, closeModal, skill}:
                                                     )}
                                             </div>
                                     </div>
-
+                                    <div className='flex flex-col items-center'>
+                                    <ImageButton
+                                        src='/service48.png'
+                                        alt='Hire Me button'
+                                        onButtonClick={hireMe}
+                                    />
+                                    <p>Hire Me for this service</p>
+                                    </div>
                                 </div>
                             </Dialog.Panel>
 

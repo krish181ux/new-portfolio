@@ -37,8 +37,8 @@ const SkillCard = ({skill}: SkillCardProps) => {
             className='object-contain'
             />
         </div>
-        <div className='relative flex w-full mt-2'>
-            <div className='flex group-hover:invisible
+        <div className='relative w-full mt-2'>
+            {/* <div className='flex group-hover:invisible
             w-full justify-between text-gray'>
                 <div className='flex flex-col justify-center
                 items-center gap-2'>
@@ -58,10 +58,10 @@ const SkillCard = ({skill}: SkillCardProps) => {
                         Avail Service
                     </p>
                 </div>
-            </div>
+            </div> */}
             <div className='card-card__btn-container'>
                 <CustomButton
-                title='View Demo'
+                title='More Info'
                 containerStyles='w-full py-[16px]
                 rounded-full bg-primary-blue'
                 textStyles='text-white text-[14px] leading-
