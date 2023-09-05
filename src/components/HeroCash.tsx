@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HeroBlog = () => {
+const HeroCash = () => {
   return (
     <div className='hero'>
         <div className='flex-1 pt-36 padding-x'>
@@ -11,4 +11,4 @@ const HeroBlog = () => {
   )
 }
 
-export default HeroBlog
+export default HeroCash

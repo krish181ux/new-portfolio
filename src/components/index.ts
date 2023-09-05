@@ -11,6 +11,9 @@ import SkillDetails from './SkillDetails';
 import HeroProjects from './HeroProjects';
 import HeroBlog from './HeroBlog';
 import HeroAbout from './HeroAbout';
+import HeroAnt from './HeroAnt';
+import HeroCash from './HeroCash';
+import HeroCrisis from './HeroCrisis';
 
 export {
     Hero,
@@ -25,5 +28,8 @@ export {
     SkillDetails,
     HeroProjects,
     HeroAbout,
-    HeroBlog
+    HeroBlog,
+    HeroAnt,
+    HeroCash,
+    HeroCrisis
 }

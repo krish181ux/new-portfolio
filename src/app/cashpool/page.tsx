@@ -1,4 +1,4 @@
-import { Hero, HeroProjects } from "@/components";
+import { HeroCash } from "@/components";
 
 export default function Page() {
   return (
