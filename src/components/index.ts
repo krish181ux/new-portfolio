@@ -8,6 +8,9 @@ import SearchBar from './SearchBar';
 import SearchM from './SearchM';
 import SkillCard from './SkillCard';
 import SkillDetails from './SkillDetails';
+import HeroProjects from './HeroProjects';
+import HeroBlog from './HeroBlog';
+import HeroAbout from './HeroAbout';
 
 export {
     Hero,
@@ -19,5 +22,8 @@ export {
     SearchBar,
     SearchM,
     SkillCard,
-    SkillDetails
+    SkillDetails,
+    HeroProjects,
+    HeroAbout,
+    HeroBlog
 }

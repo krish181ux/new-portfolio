@@ -20,13 +20,13 @@ export default function Home() {
             A list of things that I can do
           </p>
         </div>
-      <div className='home__filters'>
+      {/* <div className='home__filters'>
         <SearchBar />
         <div className='home__filter-container'>
           <CustomFilter title='t1'/>
           <CustomFilter title='t2'/> 
         </div>
-      </div>
+      </div> */}
       <div className='home__cars-wrapper'>
         {mainSkills.map((item) => (
           <SkillCard skill={item} />

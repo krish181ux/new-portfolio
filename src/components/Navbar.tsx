@@ -27,17 +27,17 @@ const Navbar = () => {
                 />
             </Link>
             
-            <Link href='/' className='flex
+            <Link href='/about' className='flex
             justify-center items-center'>
                 About
             </Link>
 
-            <Link href='/' className='flex
+            <Link href='/projects' className='flex
             justify-center items-center'>
                 Projects
             </Link>
 
-            <Link href='/' className='flex
+            <Link href='/blog' className='flex
             justify-center items-center'>
                 Blog
             </Link>
